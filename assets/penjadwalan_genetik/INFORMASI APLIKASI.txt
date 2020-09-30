@@ -1,0 +1,22 @@
+Catatan :
+<> Enkripsi password menggunakan sha1 dan md5
+   bentuk umum :
+	sha1(md5($password))
+<> PHP 7.0, html 5
+<> Hak akses 2 :
+   1. Admin
+   2. Guru
+<> Hak akses admin :
+	- Dapat melihat semua fitur pada Aplikasi
+<> Hak akses Guru :
+	- Dapat melihat fitur penjadwalan (semua)
+	- Tidak dapat melihat semua fitur spt admin
+<> Database :
+	SQLI - Versi terbaru
+	Host : localhost
+	Username : root
+	Password : 
+<> Base URL :
+	http://localhost/penjadwalan_genetik
+<> Pada saat ganti password, memang valuenya banyak, karena menggunakan
+   enkripsi dua lapis, yaitu sha1 dan md5 agar tidak dijebol hacker.

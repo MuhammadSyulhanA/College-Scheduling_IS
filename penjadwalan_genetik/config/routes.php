@@ -1,0 +1,15 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+$route['default_controller'] = "akses";
+$route['404_override'] = '';
+$route['guru'] = "web/guru";
+$route['matapelajaran'] = "web/matapelajaran";
+$route['pengampu'] = "web/pengampu";
+$route['ruang'] = "web/ruang";
+$route['jam'] = "web/jam";
+$route['hari'] = "web/hari";
+$route['fitnes'] = "web/fitnes";
+$route['waktu_tidak_bersedia'] = "web/waktu_tidak_bersedia";
+$route['penjadwalan'] = "web/penjadwalan";
+$route['pengaturan'] = "web/pengaturan";
+$route['keluar'] ="akses/LogApp";
+$route['login'] = "akses";
